@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="icon" format="reference" />
+    <attr name="ring_color" format="color" />
+    <attr name="ring_width" format="dimension"/>
+    <attr name="view_alpha" format="float" />
+    <attr name="round_radius" format="integer" />
+
+    <declare-styleable name="MyCircleImageView">
+
+        <attr name="icon" />
+        <attr name="ring_color" />
+        <attr name="ring_width" />
+        <attr name="view_alpha" />
+
+    </declare-styleable>
+
+    <declare-styleable name="MyRoundImageView">
+
+        <attr name="icon" />
+        <attr name="round_radius" />
+
+    </declare-styleable>
+
+</resources>

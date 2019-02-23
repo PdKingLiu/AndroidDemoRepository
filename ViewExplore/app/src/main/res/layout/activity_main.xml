@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.viewexplore.MyHorizontalViewGroup
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+        <ListView
+            android:id="@+id/lv_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </com.example.viewexplore.MyHorizontalViewGroup>
+
+    <ScrollView
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click" />
+
+
+            <com.example.viewexplore.SlideView
+                android:id="@+id/my_view"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:color/black" />
+
+            <com.example.viewexplore.MyCircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:icon="@mipmap/icon"
+                app:ring_color="#FF7D40"
+                app:ring_width="3dp"
+                app:view_alpha="0.7" />
+
+            <com.example.viewexplore.MyRoundImageView
+                android:padding="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:icon="@mipmap/icon" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
