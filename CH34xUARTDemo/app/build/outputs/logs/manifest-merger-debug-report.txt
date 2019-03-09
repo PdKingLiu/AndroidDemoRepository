@@ -1,0 +1,182 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:2:1-42:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Studio\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2d64fde1ac1a9b99d5d72265392fe926\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Studio\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\78c32b91c7143d693df41ade633f5620\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\1aab4dc21a536b0d886b6fe19b935bca\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Studio\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\dd17e8ee6c27cba68f8333dc0ace2297\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\7190487a660aa82838aa84c4bb03542f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0cb85d01710b89c6cf0db02cf7ffc43c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\b610267130f0ac8569089d5dd5b9aa07\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Studio\caches\transforms-1\files-1.1\loader-28.0.0.aar\a103ca6be843fa099e76bed36eb92a4c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Studio\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\c940d3c4250150af00506ed253657e66\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Studio\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\7c372fe837042d37317901b0d2d8efb3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Studio\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\df8c7434bc463855773ae9bae5edb925\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Studio\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\8575546ba9481282da7de1df5c2f5cc8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Studio\caches\transforms-1\files-1.1\customview-28.0.0.aar\f10c38092dbe278ec0c2621164e2403e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Studio\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\7626f58e070f781d80ebd24d6d2d1df3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Studio\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\2a5c65a28275469a6f2fae8446529637\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\03ad4a900ec3d259c35ec8b469325d6d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Studio\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\2d2dd944b4eaebacc705648e00e96f10\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Studio\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\dd6f76497b1cdd22ba685f3fb26b4030\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Studio\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c61a9ff671e16b17e04bf7c9c6cf9808\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Studio\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\993eb8c43045863c741ebef89b7165ca\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Studio\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\911e5c386660a6ab29c7b3c9bbb73598\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Studio\caches\transforms-1\files-1.1\print-28.0.0.aar\95756a2e3d401d9d5ef652ecb3a93cbe\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Studio\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\8caf1956579a187faa124b1dbd75f913\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Studio\caches\transforms-1\files-1.1\livedata-1.1.1.aar\3e62c7e7f8f06ddbf712d3d9d6768192\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Studio\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\40c80e15308b234f7e806361a865f5f6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Studio\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5e59d94e2ac5c69067b2e950dc76ae57\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Studio\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\904b48fbc12ca086142cfef8e693a6ab\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:2:1-42:12
+	package
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.usb.host
+ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:6:2-59
+	android:name
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:6:16-56
+uses-sdk
+ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Studio\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2d64fde1ac1a9b99d5d72265392fe926\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Studio\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2d64fde1ac1a9b99d5d72265392fe926\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Studio\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\78c32b91c7143d693df41ade633f5620\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Studio\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\78c32b91c7143d693df41ade633f5620\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\1aab4dc21a536b0d886b6fe19b935bca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\1aab4dc21a536b0d886b6fe19b935bca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Studio\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\dd17e8ee6c27cba68f8333dc0ace2297\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Studio\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\dd17e8ee6c27cba68f8333dc0ace2297\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\7190487a660aa82838aa84c4bb03542f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\7190487a660aa82838aa84c4bb03542f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0cb85d01710b89c6cf0db02cf7ffc43c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0cb85d01710b89c6cf0db02cf7ffc43c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\b610267130f0ac8569089d5dd5b9aa07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\b610267130f0ac8569089d5dd5b9aa07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Studio\caches\transforms-1\files-1.1\loader-28.0.0.aar\a103ca6be843fa099e76bed36eb92a4c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Studio\caches\transforms-1\files-1.1\loader-28.0.0.aar\a103ca6be843fa099e76bed36eb92a4c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Studio\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\c940d3c4250150af00506ed253657e66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Studio\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\c940d3c4250150af00506ed253657e66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Studio\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\7c372fe837042d37317901b0d2d8efb3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Studio\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\7c372fe837042d37317901b0d2d8efb3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Studio\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\df8c7434bc463855773ae9bae5edb925\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Studio\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\df8c7434bc463855773ae9bae5edb925\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Studio\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\8575546ba9481282da7de1df5c2f5cc8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Studio\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\8575546ba9481282da7de1df5c2f5cc8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Studio\caches\transforms-1\files-1.1\customview-28.0.0.aar\f10c38092dbe278ec0c2621164e2403e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Studio\caches\transforms-1\files-1.1\customview-28.0.0.aar\f10c38092dbe278ec0c2621164e2403e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Studio\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\7626f58e070f781d80ebd24d6d2d1df3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Studio\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\7626f58e070f781d80ebd24d6d2d1df3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Studio\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\2a5c65a28275469a6f2fae8446529637\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Studio\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\2a5c65a28275469a6f2fae8446529637\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\03ad4a900ec3d259c35ec8b469325d6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\03ad4a900ec3d259c35ec8b469325d6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Studio\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\2d2dd944b4eaebacc705648e00e96f10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Studio\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\2d2dd944b4eaebacc705648e00e96f10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Studio\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\dd6f76497b1cdd22ba685f3fb26b4030\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Studio\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\dd6f76497b1cdd22ba685f3fb26b4030\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Studio\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c61a9ff671e16b17e04bf7c9c6cf9808\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Studio\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c61a9ff671e16b17e04bf7c9c6cf9808\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Studio\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\993eb8c43045863c741ebef89b7165ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Studio\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\993eb8c43045863c741ebef89b7165ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Studio\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\911e5c386660a6ab29c7b3c9bbb73598\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Studio\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\911e5c386660a6ab29c7b3c9bbb73598\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Studio\caches\transforms-1\files-1.1\print-28.0.0.aar\95756a2e3d401d9d5ef652ecb3a93cbe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Studio\caches\transforms-1\files-1.1\print-28.0.0.aar\95756a2e3d401d9d5ef652ecb3a93cbe\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Studio\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\8caf1956579a187faa124b1dbd75f913\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Studio\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\8caf1956579a187faa124b1dbd75f913\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Studio\caches\transforms-1\files-1.1\livedata-1.1.1.aar\3e62c7e7f8f06ddbf712d3d9d6768192\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Studio\caches\transforms-1\files-1.1\livedata-1.1.1.aar\3e62c7e7f8f06ddbf712d3d9d6768192\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Studio\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\40c80e15308b234f7e806361a865f5f6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Studio\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\40c80e15308b234f7e806361a865f5f6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Studio\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5e59d94e2ac5c69067b2e950dc76ae57\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Studio\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5e59d94e2ac5c69067b2e950dc76ae57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Studio\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\904b48fbc12ca086142cfef8e693a6ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Studio\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\904b48fbc12ca086142cfef8e693a6ab\AndroidManifest.xml:20:5-44
+INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:11:5-40:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Studio\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\78c32b91c7143d693df41ade633f5620\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Studio\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\78c32b91c7143d693df41ade633f5620\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\03ad4a900ec3d259c35ec8b469325d6d\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\03ad4a900ec3d259c35ec8b469325d6d\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Studio\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\2d2dd944b4eaebacc705648e00e96f10\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Studio\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\2d2dd944b4eaebacc705648e00e96f10\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Studio\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\03ad4a900ec3d259c35ec8b469325d6d\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:13:9-38
+	android:allowBackup
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:15:9-40
+activity#cn.wch.ch34xuartdriver.MainActivity
+ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:16:9-39:20
+	android:screenOrientation
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:18:13-50
+	android:label
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:19:13-45
+	android:launchMode
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:20:13-44
+	android:name
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:17:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:24:27-74
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:27:14-29:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:28:17-90
+	android:name
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:28:25-87
+intent-filter#action:name:android.media.action.IMAGE_CAPTURE+category:name:android.intent.category.DEFAULT
+ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:31:14-34:29
+action#android.media.action.IMAGE_CAPTURE
+ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:32:25-74
+category#android.intent.category.DEFAULT
+ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:33:17-75
+	android:name
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:33:27-73
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:36:13-37:57
+	android:resource
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:37:17-54
+	android:name
+		ADDED from C:\AndroidStudioProjects\MyAndroidProject\CH34xUARTDemo\app\src\main\AndroidManifest.xml:36:24-86

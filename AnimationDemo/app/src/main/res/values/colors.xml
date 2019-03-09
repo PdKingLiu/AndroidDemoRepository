@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="pie_blue">#8cebff</color>
+    <color name="pie_green">#c5ff8c</color>
+    <color name="pie_orange">#ffd28c</color>
+    <color name="pie_yellow">#fff78c</color>
 </resources>
