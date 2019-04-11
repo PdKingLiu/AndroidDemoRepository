@@ -18,6 +18,7 @@ import java.io.File;
 public class TestActivity extends AppCompatActivity {
 
     LinearLayout linearLayout;
+    TbsReaderView trv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,34 @@ public class TestActivity extends AppCompatActivity {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission
                     .READ_EXTERNAL_STORAGE},1);
         }
+    }
+
+    public void ppt(View view) {
+         trv = new TbsReaderView(this, new TbsReaderView.ReaderCallback() {
+            @Override
+            public void onCallBackAction(Integer integer, Object o, Object o1) {
+
+            }
+        });
+        linearLayout.addView(trv,new LinearLayout.LayoutParams(-1,-1));
+        File file = new File(Environment.getExternalStorageDirectory(), "testppt.pptx");
+        Log.d("Lpp", "file.exists(): " + file.exists());
+        Bundle localBundle = new Bundle();
+        localBundle.putString("filePath", file.toString());
+        localBundle.putString("tempPath", Environment.getExternalStorageDirectory() + "/" +
+                "TbsReaderTemp");
+        boolean bool = trv.preOpen("ppt", false);
+        if (bool) {
+            trv.openFile(localBundle);
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (trv != null) {
+            trv.onStop();
+        }
+        super.onDestroy();
     }
 
     public void pdf(View view) {
@@ -50,7 +79,6 @@ public class TestActivity extends AppCompatActivity {
             trv.openFile(localBundle);
         }
     }
-
     public void word(View view) {
         TbsReaderView trv = new TbsReaderView(this, new TbsReaderView.ReaderCallback() {
             @Override
