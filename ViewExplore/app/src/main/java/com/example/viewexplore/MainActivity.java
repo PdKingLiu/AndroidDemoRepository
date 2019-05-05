@@ -1,5 +1,8 @@
 package com.example.viewexplore;
 
+import android.app.PendingIntent;
+import android.content.Intent;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,6 +13,13 @@ import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.Random;
+
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+import okhttp3.WebSocket;
+import okhttp3.WebSocketListener;
+import okio.ByteString;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,7 +44,10 @@ public class MainActivity extends AppCompatActivity {
 
         lv_two = findViewById(R.id.lv_two);
 
-        initList();
+//        initList();
+
+        initWebSocket();
+
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +61,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+    }
+
+    private void initWebSocket() {
+        Log.d("Lpp", "initWebSocket: ");
+        Intent intent = new Intent(this, MyService.class);
+        PendingIntent pendingIntent = PendingIntent.getService(this, 0, intent, 0);
+        startService(intent);
     }
 
     private void initList() {
