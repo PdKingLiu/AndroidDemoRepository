@@ -54,7 +54,6 @@ public class SocketThread extends Thread {
     private String TAG = "Lpp";
 
     private void initSocket() {
-        Log.d(TAG, "initSocket: ");
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder().url(WEBSOCKET_HOST_AND_PORT).build();
         client.newWebSocket(request, new WebSocketListener() {

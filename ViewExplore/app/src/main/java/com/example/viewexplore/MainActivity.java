@@ -31,11 +31,15 @@ public class MainActivity extends AppCompatActivity {
 
     private ListView lv_two;
 
+    private String TAG = "Lpp";
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Log.d(TAG, "onCreate: ");
+        
         mSlideView = findViewById(R.id.my_view);
 
         button = findViewById(R.id.button_1);
@@ -46,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
 //        initList();
 
-        initWebSocket();
+//        initWebSocket();
 
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -64,9 +68,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initWebSocket() {
-        Log.d("Lpp", "initWebSocket: ");
         Intent intent = new Intent(this, MyService.class);
-        PendingIntent pendingIntent = PendingIntent.getService(this, 0, intent, 0);
         startService(intent);
     }
 
@@ -88,4 +90,5 @@ public class MainActivity extends AppCompatActivity {
         adapter1.notifyDataSetChanged();
         lv_two.setAdapter(adapter2);
     }
+
 }

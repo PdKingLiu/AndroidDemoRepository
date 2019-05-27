@@ -16,7 +16,6 @@ public class MyService extends Service {
 
     @Override
     public void onCreate() {
-        Log.d("Lpp", "onCreate: ");
         super.onCreate();
         new SocketThread().start();
     }
