@@ -1,0 +1,19 @@
+ext {
+
+    isApp = false
+
+    android = [
+            compileSdkVersion: 28,
+            applicationId    : "com.competition.pdking.modularizationdemo",
+            minSdkVersion    : 19,
+            targetSdkVersion : 28,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+
+    dependencies = [
+            appcompat_v7     : "com.android.support:appcompat-v7:28.+",
+            constraint_layout: 'com.android.support.constraint:constraint-layout:1.0.2'
+    ]
+
+}
