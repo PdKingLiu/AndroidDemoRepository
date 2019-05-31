@@ -44,7 +44,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
     implementation rootProject.ext.dependencies.appcompat_v7
     implementation rootProject.ext.dependencies.constraint_layout
     testImplementation 'junit:junit:4.12'
