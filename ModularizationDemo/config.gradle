@@ -8,12 +8,16 @@ ext {
             minSdkVersion    : 19,
             targetSdkVersion : 28,
             versionCode      : 1,
-            versionName      : "1.0"
+            versionName      : "1.0",
     ]
 
     dependencies = [
             appcompat_v7     : "com.android.support:appcompat-v7:28.+",
-            constraint_layout: 'com.android.support.constraint:constraint-layout:1.0.2'
+            constraint_layout: 'com.android.support.constraint:constraint-layout:1.0.2',
+
+            arouter_api      : 'com.alibaba:arouter-api:1.5.0',
+            arouter_compiler : 'com.alibaba:arouter-compiler:1.2.2'
+
     ]
 
 }
